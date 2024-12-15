@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "target": "ESNext",
+    "moduleResolution": "nodenext",
+    "module":"NodeNext",
+    "pretty":true,
+    "lib":["ESNext", "dom"],
+    "strict":false,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "declaration":true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["src/**/*.test.ts"]
+}
