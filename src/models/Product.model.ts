@@ -14,6 +14,11 @@ class Product extends Model {
         type: DataType.FLOAT(5)
     })
     declare price: number
+
+    @Column({
+        type: DataType.FLOAT(5)
+    })
+    declare stock: number
     
     @Default(true)
     @Column({
